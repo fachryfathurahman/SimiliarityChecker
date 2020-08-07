@@ -41,5 +41,5 @@ for x in allData:
         max_value = resutlt[1]
         last_percentage = [x['TaskDetailID'], resutlt]
 
-print(last_percentage)
+print(str(last_percentage[0])+"::"+str(round(last_percentage[1][0],2))+"::"+str(round(last_percentage[1][1],2)))
 

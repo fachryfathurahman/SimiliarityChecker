@@ -4,7 +4,7 @@ import requests
 import sys
 
 url = "https://api.ofcode.dev/ilab/submission/"
-TaskDetailID = str(sys.argv)
+TaskDetailID = str(sys.argv[1])
 urlWithID = url + TaskDetailID
 
 responseWithID = requests.get(urlWithID)
